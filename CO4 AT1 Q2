@@ -1,4 +1,6 @@
-def kruskal(edges, n):
+C.NAGA CHARAN(192472166)
+    
+    def kruskal(edges, n):
     parent = list(range(n))
     def find(x):
         if parent[x] != x:
@@ -28,3 +30,6 @@ for u, v, w in mst:
     print(f"{u} - {v} : {w}")
 
 print("Total Weight =", weight)
+
+    OUTPUT:
+    MST Cost=7
