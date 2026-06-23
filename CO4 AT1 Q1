@@ -1,3 +1,6 @@
+C.NAGA CHARAN(192472166)
+
+
 def prim_mst(graph):
     n = len(graph)
     selected = [False] * n
@@ -22,3 +25,6 @@ graph = [
     [3, 1, 0]
 ]
 print("Total Weight =", prim_mst(graph))
+
+output:
+Total weight =3
